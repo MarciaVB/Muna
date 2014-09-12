@@ -16,7 +16,7 @@ MonoBehaviour:
     m_Name: box
     m_Normal:
       m_Background: {fileID: 0}
-      m_TextColor: {r: 1, g: 1, b: 1, a: 4.97175643e-06}
+      m_TextColor: {r: 1, g: 1, b: 1, a: 0}
     m_Hover:
       m_Background: {fileID: 0}
       m_TextColor: {r: 1, g: 1, b: 1, a: 1}
@@ -59,7 +59,7 @@ MonoBehaviour:
       m_Top: 0
       m_Bottom: 0
     m_Font: {fileID: 12800000, guid: 531382864f02b5e4f9e237914be07c9d, type: 3}
-    m_FontSize: 20
+    m_FontSize: 25
     m_FontStyle: 0
     m_Alignment: 1
     m_WordWrap: 0

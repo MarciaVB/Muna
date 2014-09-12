@@ -54,6 +54,15 @@ public class IntroText : MonoBehaviour {
 		if(_isGUIActive)
 		{
 			GUI.skin = _skin;
+			
+			_skin.box.normal.textColor = Color.black;
+			GUI.Box(new Rect(-1,-1,Screen.width, Screen.height),_currentString);
+			GUI.Box(new Rect(1,-1,Screen.width, Screen.height),_currentString);
+			GUI.Box(new Rect(-1,1,Screen.width, Screen.height),_currentString);
+			GUI.Box(new Rect(1,1,Screen.width, Screen.height),_currentString);
+
+			
+			_skin.box.normal.textColor = Color.white;
 			GUI.Box(new Rect(0,0,Screen.width, Screen.height),_currentString);
 		}
 	}

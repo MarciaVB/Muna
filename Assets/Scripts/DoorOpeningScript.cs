@@ -23,6 +23,7 @@ public class DoorOpeningScript : MonoBehaviour {
 			animation["Open"].wrapMode = WrapMode.Once;
 			animation.Play("Open");
 			opened=true;
+			this.collider.enabled = false;
 		}
 	
 	}
